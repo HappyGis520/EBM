@@ -1,0 +1,9 @@
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\MainWindow.g.cs
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\App.g.cs
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\EllaBookerMaker.View_MarkupCompile.cache
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\EllaBookerMaker.View_MarkupCompile.lref
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\EllaBookerMaker.View.csprojResolveAssemblyReference.cache
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\MainWindow.baml
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\EllaBookerMaker.View.exe
+G:\EllaBook\Code\EllabookVx\EllaBookerMaker.View\obj\Debug\EllaBookerMaker.View.pdb

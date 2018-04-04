@@ -21,7 +21,6 @@ namespace EllaBookMaker.Model
     public class Book:ObservableObject
     {
         private string _name;
-
         public string Name
         {
             get => _name;

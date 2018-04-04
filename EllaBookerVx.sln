@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookMaker.Utility", "El
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookerMaker.View", "EllaBookerMaker.View\EllaBookerMaker.View.csproj", "{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookMaker.CustomControl", "EllaBookMaker.CustomControl\EllaBookMaker.CustomControl.csproj", "{7B077F11-CC08-49A3-8662-858F2E9A5CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookMaker.UserControl", "EllaBookMaker.UserControl\EllaBookMaker.UserControl.csproj", "{688B6479-ACCB-4FF9-AF84-ED711D694FEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B077F11-CC08-49A3-8662-858F2E9A5CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B077F11-CC08-49A3-8662-858F2E9A5CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B077F11-CC08-49A3-8662-858F2E9A5CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B077F11-CC08-49A3-8662-858F2E9A5CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688B6479-ACCB-4FF9-AF84-ED711D694FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688B6479-ACCB-4FF9-AF84-ED711D694FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688B6479-ACCB-4FF9-AF84-ED711D694FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688B6479-ACCB-4FF9-AF84-ED711D694FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
