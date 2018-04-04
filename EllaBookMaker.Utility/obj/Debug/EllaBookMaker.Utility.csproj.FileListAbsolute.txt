@@ -1,1 +1,6 @@
 G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.csprojResolveAssemblyReference.cache
+G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\bin\Debug\EllaBookMaker.Utility.dll
+G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\bin\Debug\EllaBookMaker.Utility.pdb
+G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\bin\Debug\log4net.dll
+G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.dll
+G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.pdb

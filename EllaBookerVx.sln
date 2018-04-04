@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookMaker.Model", "Ella
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookMaker.ViewModel", "EllaBookMaker.ViewModel\EllaBookMaker.ViewModel.csproj", "{5D06110A-52D0-4B12-9106-BF51F461D8EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookerMaker.View", "EllaBookerMaker.View\EllaBookerMaker.View.csproj", "{323E8FCE-B9EB-472D-83B2-331991B24745}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookMaker.Utility", "EllaBookMaker.Utility\EllaBookMaker.Utility.csproj", "{19251580-20BD-459B-A2EB-201100A6D398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EllaBookerMaker.View", "EllaBookerMaker.View\EllaBookerMaker.View.csproj", "{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{5D06110A-52D0-4B12-9106-BF51F461D8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D06110A-52D0-4B12-9106-BF51F461D8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D06110A-52D0-4B12-9106-BF51F461D8EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{323E8FCE-B9EB-472D-83B2-331991B24745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{323E8FCE-B9EB-472D-83B2-331991B24745}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{323E8FCE-B9EB-472D-83B2-331991B24745}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{323E8FCE-B9EB-472D-83B2-331991B24745}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19251580-20BD-459B-A2EB-201100A6D398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19251580-20BD-459B-A2EB-201100A6D398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19251580-20BD-459B-A2EB-201100A6D398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19251580-20BD-459B-A2EB-201100A6D398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2392D24A-9D7B-4912-8E4A-39BCDF2BB2D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

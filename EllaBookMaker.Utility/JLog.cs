@@ -9,6 +9,7 @@
  * * 修改记录： 
  * * 日期时间： 2018-04-04 10:05:42  修改人：王建军  创建
  * *******************************************************************/
+using System.Diagnostics.Eventing.Reader;
 namespace EllaBookMaker.Utility
 {
     using System;
@@ -25,15 +26,12 @@ namespace EllaBookMaker.Utility
         {
             try
             {
-                MyLog = log4net.LogManager.GetLogger("NTCLog");
+                MyLog = log4net.LogManager.GetLogger("WLog");
             }
             catch (Exception)
             {
-                //MyLog = log4net.LogManager.GetLogger("NTCLog");
-                throw;
+                throw new NotSupportedException();
             }
-         
-            
         }
         /// <summary>
         /// 总是打印的日志
@@ -46,7 +44,6 @@ namespace EllaBookMaker.Utility
         {
             if (MyLog == null)
                 return;
-
             string MyModuleName = "Module：" + ModuleName + " ";
             string MyMethodName = "Method：" + MethodName + " ";
             StringBuilder sb = new StringBuilder(MyModuleName);
@@ -75,7 +72,7 @@ namespace EllaBookMaker.Utility
         public void Debug(object Message, Exception ex=null, string MethodName = "", string ModuleName = "")
         {
             
-            if (MyLog == null)
+            if (MyLog == null|| !MyLog.IsDebugEnabled)
                 return;
 
             string MyModuleName = "Module：" + ModuleName + " ";
@@ -84,94 +81,100 @@ namespace EllaBookMaker.Utility
             sb.Append(MyMethodName);
             sb.Append(Message.ToString());
             Message = sb.ToString();
-            if (MyLog.IsDebugEnabled)
+            if (ex != null)
             {
-                if (ex != null)
-                {
-                    MyLog.Debug(Message, ex);
-                }
-                else
-                {
-                    MyLog.Debug(Message);
-                }
-                System.Diagnostics.Debug.WriteLine(Message.ToString());
+                MyLog.Debug(Message, ex);
             }
-        }
-
-        private void Error(object Message, Exception ex, string MethodName = "", string ModuleName = "")
-        {
-            if (MyLog == null)
-                return;
-            if (!string.IsNullOrEmpty(ModuleName))
+            else
             {
-                _ModuleName = string.IsNullOrEmpty(ModuleName) ? string.Empty : "Module：" + ModuleName + " ";
-                Message = _ModuleName + _MethodName + Message.ToString();
+                MyLog.Debug(Message);
             }
-            Message = _ModuleName + _MethodName + Message.ToString();
-            if (MyLog.IsErrorEnabled)
-                MyLog.Error(Message, ex);
-        }
-        public void Error(object Message, string MethodName = "", string ModuleName = "")
-        {
-            if (MyLog == null)
-                return;
-            ModuleName = string.IsNullOrEmpty(ModuleName) ? _ModuleName : ModuleName;
-            MethodName = string.IsNullOrEmpty(MethodName) ? _MethodName : MethodName;
-            Message = string.Format("{0}:{1}:{2}",ModuleName,MethodName,Message);
-            if (MyLog.IsErrorEnabled)
-                MyLog.Error(Message);
             System.Diagnostics.Debug.WriteLine(Message.ToString());
         }
 
-        private void Warn(object Message, Exception ex, string MethodName = "", string ModuleName = "")
+        /// <summary>
+        /// 在配置允许的情况下，输出错误信息，并打印
+        /// </summary>
+        /// <param name="Message"></param>
+        /// <param name="ex"></param>
+        /// <param name="MethodName"></param>
+        /// <param name="ModuleName"></param>
+        public void Error(object Message, Exception ex=null, string MethodName = "", string ModuleName = "")
         {
-            if (MyLog == null)
+            if (MyLog == null || !MyLog.IsErrorEnabled)
                 return;
-            if (!string.IsNullOrEmpty(ModuleName))
+            string MyModuleName = "Module：" + ModuleName + " ";
+            string MyMethodName = "Method：" + MethodName + " ";
+            StringBuilder sb = new StringBuilder(MyModuleName);
+            sb.Append(MyMethodName);
+            sb.Append(Message.ToString());
+            Message = sb.ToString();
+            if (ex == null)
             {
-                _ModuleName = string.IsNullOrEmpty(ModuleName) ? string.Empty : "Module：" + ModuleName + " ";
-                Message = _ModuleName + _MethodName + Message.ToString();
+                MyLog.Error(Message);
             }
-            if (MyLog.IsWarnEnabled)
+            else
+            {
+                MyLog.Error(Message, ex);
+            }
+            System.Diagnostics.Debug.WriteLine(Message.ToString());
+                
+        }
+
+        /// <summary>
+        /// 在配置允许的情况下，输出告警信息
+        /// </summary>
+        /// <param name="Message"></param>
+        /// <param name="ex"></param>
+        /// <param name="MethodName"></param>
+        /// <param name="ModuleName"></param>
+        public void Warn(object Message, Exception ex=null, string MethodName = "", string ModuleName = "")
+        {
+            if (MyLog == null||!MyLog.IsWarnEnabled)
+                return;
+            string MyModuleName = "Module：" + ModuleName + " ";
+            string MyMethodName = "Method：" + MethodName + " ";
+            StringBuilder sb = new StringBuilder(MyModuleName);
+            sb.Append(MyMethodName);
+            sb.Append(Message.ToString());
+            Message = sb.ToString();
+            if (ex != null)
+            {
                 MyLog.Warn(Message, ex);
-        }
-        private void Warn(object Message, string MethodName = "", string ModuleName = "")
-        {
-            if (MyLog == null)
-                return;
-            if (!string.IsNullOrEmpty(ModuleName))
-            {
-                _ModuleName = string.IsNullOrEmpty(ModuleName) ? string.Empty : "Module：" + ModuleName + " ";
-                Message = _ModuleName + _MethodName + Message.ToString();
             }
-            if (MyLog.IsWarnEnabled)
+            else
+            {
                 MyLog.Warn(Message);
+            }
+            System.Diagnostics.Debug.WriteLine(Message.ToString());
         }
 
-        private void Fatal(object Message, Exception ex, string MethodName = "", string ModuleName = "")
+        /// <summary>
+        /// 在配置允许的情况下，输出致命错误信息
+        /// </summary>
+        /// <param name="Message"></param>
+        /// <param name="ex"></param>
+        /// <param name="MethodName"></param>
+        /// <param name="ModuleName"></param>
+        public void Fatal(object Message, Exception ex=null, string MethodName = "", string ModuleName = "")
         {
-            if (MyLog == null)
+            if (MyLog == null||!MyLog.IsFatalEnabled)
                 return;
-            if (!string.IsNullOrEmpty(ModuleName))
+            string MyModuleName = "Module：" + ModuleName + " ";
+            string MyMethodName = "Method：" + MethodName + " ";
+            StringBuilder sb = new StringBuilder(MyModuleName);
+            sb.Append(MyMethodName);
+            sb.Append(Message.ToString());
+            Message = sb.ToString();
+            if (ex != null)
             {
-                _ModuleName = string.IsNullOrEmpty(ModuleName) ? string.Empty : "Module：" + ModuleName + " ";
-                Message = _ModuleName + _MethodName + Message.ToString();
-            }
-            if (MyLog.IsFatalEnabled)
                 MyLog.Fatal(Message, ex);
-        }
-        public void Fatal(object Message, string MethodName = "", string ModuleName = "")
-        {
-            if (MyLog == null)
-                return;
-            if (!string.IsNullOrEmpty(ModuleName))
-            {
-                _ModuleName = string.IsNullOrEmpty(ModuleName) ? string.Empty : "所属模块：" + ModuleName + " ";
-                Message = _ModuleName + _MethodName + Message.ToString();
             }
-            if (MyLog.IsFatalEnabled)
+            else
+            {
                 MyLog.Fatal(Message);
+            }
+            System.Diagnostics.Debug.WriteLine(Message.ToString());
         }
-
     }
 }
