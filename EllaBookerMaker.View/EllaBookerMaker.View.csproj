@@ -46,6 +46,9 @@
     <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.4.1.0, Culture=neutral, PublicKeyToken=5f873c45e98af8a1, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmLightLibs.5.4.1\lib\net45\GalaSoft.MvvmLight.Platform.dll</HintPath>
     </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -111,6 +114,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EllaBookMaker.Utility\EllaBookMaker.Utility.csproj">
+      <Project>{19251580-20bd-459b-a2eb-201100a6d398}</Project>
+      <Name>EllaBookMaker.Utility</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EllaBookMaker.ViewModel\EllaBookMaker.ViewModel.csproj">
       <Project>{5d06110a-52d0-4b12-9106-bf51f461d8ea}</Project>
       <Name>EllaBookMaker.ViewModel</Name>

@@ -3,4 +3,3 @@ G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\bin\Debug\EllaBookMaker.Utilit
 G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\bin\Debug\log4net.dll
 G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.dll
 G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.pdb
-G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.csprojResolveAssemblyReference.cache

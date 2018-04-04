@@ -56,11 +56,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.cs" />
+    <Compile Include="Enum\EnumSpriteType.cs" />
+    <Compile Include="Enum\EnumAnimationStyle.cs" />
+    <Compile Include="Enum\EnumCanvasState.cs" />
+    <Compile Include="Enum\EnumSpriteImageStates.cs" />
+    <Compile Include="Movie.cs" />
+    <Compile Include="Particle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpriteImageStates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
