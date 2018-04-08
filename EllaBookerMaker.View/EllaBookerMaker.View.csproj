@@ -114,6 +114,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EllaBookMaker.EllaCompon\EllaBookMaker.EllaCompon.csproj">
+      <Project>{59e4cc4e-51ca-4964-a407-24c006828d28}</Project>
+      <Name>EllaBookMaker.EllaCompon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EllaBookMaker.EllaControl\EllaBookMaker.EllaControl.csproj">
+      <Project>{bc1ff69a-03d4-41bb-a400-b268715254fa}</Project>
+      <Name>EllaBookMaker.EllaControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EllaBookMaker.Resource\EllaBookMaker.Resource.csproj">
+      <Project>{26d6557e-28fd-4ec9-871f-61897e437854}</Project>
+      <Name>EllaBookMaker.Resource</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EllaBookMaker.Utility\EllaBookMaker.Utility.csproj">
       <Project>{19251580-20bd-459b-a2eb-201100a6d398}</Project>
       <Name>EllaBookMaker.Utility</Name>
@@ -121,6 +133,10 @@
     <ProjectReference Include="..\EllaBookMaker.ViewModel\EllaBookMaker.ViewModel.csproj">
       <Project>{5d06110a-52d0-4b12-9106-bf51f461d8ea}</Project>
       <Name>EllaBookMaker.ViewModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EllaBookMaker.Windows\EllaBookMaker.Windows.csproj">
+      <Project>{3873a911-246f-43e8-b0cf-47e50255cbc8}</Project>
+      <Name>EllaBookMaker.Windows</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

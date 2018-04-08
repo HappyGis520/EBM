@@ -3,3 +3,10 @@ G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\bin\Debug\EllaBookMaker.Utilit
 G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\bin\Debug\log4net.dll
 G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.dll
 G:\EllaBook\Code\EllabookVx\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.pdb
+E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\bin\Debug\EllaBookMaker.Utility.dll
+E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\bin\Debug\EllaBookMaker.Utility.pdb
+E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\bin\Debug\log4net.dll
+E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\bin\Debug\Newtonsoft.Json.dll
+E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\bin\Debug\Newtonsoft.Json.xml
+E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.dll
+E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.pdb

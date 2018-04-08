@@ -82,5 +82,23 @@
   <ItemGroup>
     <Resource Include="Readme.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EllaBookMaker.EllaCompon\EllaBookMaker.EllaCompon.csproj">
+      <Project>{59e4cc4e-51ca-4964-a407-24c006828d28}</Project>
+      <Name>EllaBookMaker.EllaCompon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EllaBookMaker.Resource\EllaBookMaker.Resource.csproj">
+      <Project>{26d6557e-28fd-4ec9-871f-61897e437854}</Project>
+      <Name>EllaBookMaker.Resource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EllaBookMaker.Utility\EllaBookMaker.Utility.csproj">
+      <Project>{19251580-20bd-459b-a2eb-201100a6d398}</Project>
+      <Name>EllaBookMaker.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EllaBookMaker.ViewModel\EllaBookMaker.ViewModel.csproj">
+      <Project>{5d06110a-52d0-4b12-9106-bf51f461d8ea}</Project>
+      <Name>EllaBookMaker.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

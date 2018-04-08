@@ -8,9 +8,9 @@
         WindowStyle="None"
         >
     <Grid >
-        <Grid.Resources>
+        <!--<Grid.Resources>
             <ResourceDictionary Source="EllaBookMaker.Resource.ComboBoxStyle.xaml"/>
-        </Grid.Resources>
+        </Grid.Resources>-->
         <Grid Background="#666" Margin="0,0,0,0">
 
         </Grid>

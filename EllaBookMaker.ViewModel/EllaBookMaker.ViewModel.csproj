@@ -55,12 +55,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExportHelper.cs" />
     <Compile Include="MainViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModelLocator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EllaBookMaker.Model\EllaBookMaker.Model.csproj">
+      <Project>{1a66459e-a9f8-4e6b-8bc3-4b885a44d8b8}</Project>
+      <Name>EllaBookMaker.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EllaBookMaker.Utility\EllaBookMaker.Utility.csproj">
+      <Project>{19251580-20bd-459b-a2eb-201100a6d398}</Project>
+      <Name>EllaBookMaker.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
