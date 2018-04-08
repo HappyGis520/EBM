@@ -10,6 +10,7 @@
 //------------------------------------------------------------------------------
 
 using EllaBookerMaker.View;
+using EllaBookerMaker.ViewModel;
 using System;
 using System.Diagnostics;
 using System.Windows;

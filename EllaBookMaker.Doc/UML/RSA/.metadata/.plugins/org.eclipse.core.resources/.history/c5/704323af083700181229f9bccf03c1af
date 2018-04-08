@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.bpmn2.model" version="1.80.4"><feature description="" name="com.ibm.xtools.bpmn2.feature" url="" version="1.80.4"/></signature>?>
+<bpmn2:definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:bpmn2="http://www.ibm.com/xtools/bpmn/2.0" xmlns:extensions="http://jazz.net/xmlns/xtools/BPMNExtensions/v0.1"
+    xmlns:rmpnotation="http://www.ibm.com/xtools/1.0.0/rmpnotation" id="_2GdD0DbvEeirSYsUVjT8MA" name="&#x68c0;&#x67e5;&#x4e66;&#x7c4d;&#x5b8c;&#x6574;&#x6027;&#x7a0b;&#x5e8f;&#x6d41;&#x7a0b;"
+    expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.ibm.com/xtools/bpmn/2.0/_2GdD0DbvEeirSYsUVjT8MA"
+    typeLanguage="http://www.w3.org/2001/XMLSchema">
+  <extensions:diagram xsi:type="rmpnotation:RMPDiagram" xmi:id="_2GdD0TbvEeirSYsUVjT8MA"
+      visible="true" type="Bpmn2" element="_2GdD0zbvEeirSYsUVjT8MA" name="&#x68c0;&#x67e5;&#x4e66;&#x7c4d;&#x5b8c;&#x6574;&#x6027;&#x7a0b;&#x5e8f;&#x6d41;&#x7a0b;"
+      measurementUnit="Himetric" pageX="0" pageY="0" pageWidth="100" pageHeight="100"
+      description="" graphLayout="HorizontalOrthogonalHierarchical" linkLayout="None"
+      labelLayout="None"/>
+  <bpmn2:extension xmi:id="_2GdD0jbvEeirSYsUVjT8MA" definition="extensions:Extensions"
+      mustUnderstand="false"/>
+  <bpmn2:process id="_2GdD0zbvEeirSYsUVjT8MA" name="&#x68c0;&#x67e5;&#x4e66;&#x7c4d;&#x5b8c;&#x6574;&#x6027;&#x7a0b;&#x5e8f;&#x6d41;&#x7a0b;"/>
+</bpmn2:definitions>
