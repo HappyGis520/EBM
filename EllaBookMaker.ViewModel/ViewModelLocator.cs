@@ -13,10 +13,11 @@
 */
 
 using CommonServiceLocator;
+using EllaBookMaker.ViewModel;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 
-namespace EllaBookerMaker.ViewModel
+namespace EllaBookMaker.ViewModel
 {
     /// <summary>
     /// This class contains static references to all the view models in the
@@ -43,6 +44,7 @@ namespace EllaBookerMaker.ViewModel
             ////}
 
             SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<MenuViewModel>();
         }
 
         public MainViewModel Main
@@ -52,7 +54,14 @@ namespace EllaBookerMaker.ViewModel
                 return ServiceLocator.Current.GetInstance<MainViewModel>();
             }
         }
-        
+
+        public MenuViewModel Menu
+        {
+            get{
+                return ServiceLocator.Current.GetInstance<MenuViewModel>();
+            }
+        }
+
         public static void Cleanup()
         {
             // TODO Clear the ViewModels

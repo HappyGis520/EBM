@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EllaBookerMaker.View.Properties
+namespace EllaBookMaker.View.Properties
 {
 
 

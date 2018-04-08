@@ -1,6 +1,6 @@
 using GalaSoft.MvvmLight;
 
-namespace EllaBookerMaker.ViewModel
+namespace EllaBookMaker.ViewModel
 {
     /// <summary>
     /// This class contains properties that the main View can data bind to.

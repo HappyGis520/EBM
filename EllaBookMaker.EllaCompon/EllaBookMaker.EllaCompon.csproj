@@ -81,15 +81,5 @@
   <ItemGroup>
     <Resource Include="Readme.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EllaBookMaker.Utility\EllaBookMaker.Utility.csproj">
-      <Project>{19251580-20bd-459b-a2eb-201100a6d398}</Project>
-      <Name>EllaBookMaker.Utility</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EllaBookMaker.ViewModel\EllaBookMaker.ViewModel.csproj">
-      <Project>{5d06110a-52d0-4b12-9106-bf51f461d8ea}</Project>
-      <Name>EllaBookMaker.ViewModel</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

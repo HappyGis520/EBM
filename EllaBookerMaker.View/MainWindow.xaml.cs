@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using EllaBookMaker.Utility;
 
-namespace EllaBookerMaker.View
+namespace EllaBookMaker.View
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑

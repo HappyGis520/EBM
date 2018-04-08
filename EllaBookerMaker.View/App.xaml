@@ -1,8 +1,8 @@
-﻿<Application x:Class="EllaBookerMaker.View.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:EllaBookerMaker.View" StartupUri="MainWindow.xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" d1p1:Ignorable="d" xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:viewModel="clr-namespace:EllaBookerMaker.ViewModel;assembly=EllaBookMaker.ViewModel">
+﻿<Application x:Class="EllaBookMaker.View.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:EllaBookMaker.View" StartupUri="MainWindow.xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" d1p1:Ignorable="d" xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModel="clr-namespace:EllaBookMaker.ViewModel;assembly=EllaBookMaker.ViewModel">
   <Application.Resources>
     <ResourceDictionary>
-      <viewModel:ViewModelLocator x:Key="Locator" d:IsDataSource="True" xmlns:vm="clr-namespace:EllaBookerMaker.ViewModel;assembly=EllaBookMaker.ViewModel..NETFramework,Version=v4.5.2" />
+      <viewModel:ViewModelLocator x:Key="Locator" d:IsDataSource="True" xmlns:vm="clr-namespace:EllaBookMaker.ViewModel;assembly=EllaBookMaker.ViewModel..NETFramework,Version=v4.5.2" />
     </ResourceDictionary>
   </Application.Resources>
 </Application>
