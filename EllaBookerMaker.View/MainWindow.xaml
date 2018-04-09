@@ -3,19 +3,52 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:avalondock="http://schemas.xceed.com/wpf/xaml/avalondock"
         xmlns:local="clr-namespace:EllaBookMaker.View"
         xmlns:EllaControl="clr-namespace:EllaBookMaker.EllaControl;assembly=EllaBookMaker.EllaControl" x:Class="EllaBookMaker.View.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="咿啦做书" Height="350" Width="525">
+    <Grid Name="MainGrid">
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition  Height="30"/>
         </Grid.RowDefinitions>
+        <EllaControl:Menu  DockPanel.Dock="Top" Height="30"  Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="500"  />
+        <avalondock:DockingManager Grid.Row="1">
+            <avalondock:DockingManager.Theme>
+                <avalondock:Windows10Theme></avalondock:Windows10Theme>
 
-        <EllaControl:UserControl1 Grid.Row="0"  HorizontalAlignment ="Left"  VerticalAlignment="Center"  Width="100" Height="100" />
-        <EllaControl:Menu HorizontalAlignment="Left" Height="45" Margin="57,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="432"/>
+            </avalondock:DockingManager.Theme>
+            <avalondock:LayoutRoot>
+                <avalondock:LayoutPanel x:Name="Panel" >
+                    <avalondock:LayoutAnchorablePane x:Name="Paneleft">
+                        <avalondock:LayoutAnchorable x:Name="Solution1" Title="解决方案1" ContentId="Solution" />
+                    </avalondock:LayoutAnchorablePane>
+
+                    <avalondock:LayoutAnchorablePane x:Name="PaneCenter">
+                        <avalondock:LayoutAnchorable x:Name="Solution2" Title="解决方案222" ContentId="Solution" >
+                            <DockPanel>
+                                <Button Height="30" ClipToBounds="True" VerticalAlignment="Top">clickeme</Button>
+                            </DockPanel>
+                        </avalondock:LayoutAnchorable>
+
+                        <avalondock:LayoutAnchorable x:Name="Solution3" Title="解决方案3" ContentId="Solution">
+                            <Button Height="30" Name="Button1"  ClipToBounds ="True">ClickMe1
+                            </Button>
+                        </avalondock:LayoutAnchorable>
+                    </avalondock:LayoutAnchorablePane>
+
+                    <avalondock:LayoutAnchorablePane x:Name="PaneRight">
+                        <avalondock:LayoutAnchorable x:Name="Solution4" Title="解决方案4" ContentId="Solution"/>
+
+                        <avalondock:LayoutAnchorable x:Name="Solution5" Title="解决方案5" ContentId="Solution"/>
+                    </avalondock:LayoutAnchorablePane>
+
+                </avalondock:LayoutPanel>
+            </avalondock:LayoutRoot>
+        </avalondock:DockingManager>
+
     </Grid>
 
 

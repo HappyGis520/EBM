@@ -10,3 +10,4 @@ E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\bin\Debug\Newtonsoft.Json.dll
 E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\bin\Debug\Newtonsoft.Json.xml
 E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.dll
 E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.pdb
+E:\EllaBookMakerVx\Code\EllaBookMaker.Utility\obj\Debug\EllaBookMaker.Utility.csprojResolveAssemblyReference.cache

@@ -44,7 +44,7 @@ namespace EllaBookMaker.ViewModel
             ////}
 
             SimpleIoc.Default.Register<MainViewModel>();
-            SimpleIoc.Default.Register<MenuViewModel>();
+            SimpleIoc.Default.Register<MenuToolViewModel>();
         }
 
         public MainViewModel Main
@@ -55,10 +55,10 @@ namespace EllaBookMaker.ViewModel
             }
         }
 
-        public MenuViewModel Menu
+        public MenuToolViewModel Menu
         {
             get{
-                return ServiceLocator.Current.GetInstance<MenuViewModel>();
+                return ServiceLocator.Current.GetInstance<MenuToolViewModel>();
             }
         }
 

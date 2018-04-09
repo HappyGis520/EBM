@@ -23,7 +23,7 @@ namespace EllaBookMaker.EllaControl
         public Menu()
         {
             InitializeComponent();
-            newBook.Click += aa;
+            //newBook.Click += aa;
             ////文件
             //newBook.Click += BookOptionEvents.newBook_Click;
             //openBook.Click += BookOptionEvents.openBook_Click;
@@ -47,18 +47,6 @@ namespace EllaBookMaker.EllaControl
             //feedBack.Click += OtherOptionEvents.feedBack_Click;
             //compressPng.Click += OtherOptionEvents.compressPng_Click;
 
-        }
-
-        private void aa(object sender, RoutedEventArgs e)
-        {
-            JLog.Instance.Error("dfsafsafsafas");
-
-        }
-
-        private void openTempDir_Click(object sender, RoutedEventArgs e)
-        {
-            //System.Diagnostics.Process.Start("Explorer.exe ", "/select," + System.IO.Path.Combine(ExportHelper.TempPath, "ellabook") );
-          
         }
     }
 }
