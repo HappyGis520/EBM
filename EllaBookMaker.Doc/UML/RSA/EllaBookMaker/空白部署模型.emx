@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational 建模平台（com.ibm.xtools.rmp）" url="" version="7.0.0"/></signature>?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_-wiIsD7qEeiB4YrQ3a5FeQ" name="空白部署模型">
+  <eAnnotations xmi:id="_-wiIsT7qEeiB4YrQ3a5FeQ" source="uml2.diagrams" references="_-wiIsj7qEeiB4YrQ3a5FeQ">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_-wiIsj7qEeiB4YrQ3a5FeQ" type="Deployment" name="Main"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_-wiIsz7qEeiB4YrQ3a5FeQ" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_-wiItD7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBDeploymentDiagram" value="1"/>
+    <details xmi:id="_-wiItT7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+    <details xmi:id="_-wiItj7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+    <details xmi:id="_-wiItz7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+    <details xmi:id="_-wiIuD7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBDeploymentSpecification" value="1"/>
+    <details xmi:id="_-wiIuT7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBStereotypedDeployment1" value="1"/>
+    <details xmi:id="_-wiIuj7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBArtifact" value="1"/>
+    <details xmi:id="_-wiIuz7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+    <details xmi:id="_-wiIvD7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+    <details xmi:id="_-wiIvT7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+    <details xmi:id="_-wiIvj7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+    <details xmi:id="_-wiIvz7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+    <details xmi:id="_-wiIwD7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+    <details xmi:id="_-wiIwT7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
+    <details xmi:id="_-wiIwj7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+    <details xmi:id="_-wiIwz7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+    <details xmi:id="_-wiIxD7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBStereotypedArtifact" value="1"/>
+    <details xmi:id="_-wiIxT7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+    <details xmi:id="_-wiIxj7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBDeployment2" value="1"/>
+    <details xmi:id="_-wiIxz7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBDeployment1" value="1"/>
+    <details xmi:id="_-wiIyD7qEeiB4YrQ3a5FeQ" key="com.ibm.xtools.activities.umlBBFunctionTemplateParameter" value="1"/>
+  </eAnnotations>
+  <packageImport xmi:id="_-wiIyT7qEeiB4YrQ3a5FeQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <profileApplication xmi:id="_-wiIyj7qEeiB4YrQ3a5FeQ">
+    <eAnnotations xmi:id="_-wiIyz7qEeiB4YrQ3a5FeQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_-wiIzD7qEeiB4YrQ3a5FeQ">
+    <eAnnotations xmi:id="_-wiIzT7qEeiB4YrQ3a5FeQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_-wiIzj7qEeiB4YrQ3a5FeQ">
+    <eAnnotations xmi:id="_-wiIzz7qEeiB4YrQ3a5FeQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Model>

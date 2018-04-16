@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:avalondock="http://schemas.xceed.com/wpf/xaml/avalondock"
         xmlns:local="clr-namespace:EllaBookMaker.View"
-        xmlns:EllaControl="clr-namespace:EllaBookMaker.EllaControl;assembly=EllaBookMaker.EllaControl" x:Class="EllaBookMaker.View.MainWindow"
+        xmlns:EllaControl="clr-namespace:EllaBookMaker.EllaControl;assembly=EllaBookMaker.EllaControl"
+        xmlns:themes1="clr-namespace:EllaBookMaker.Themes;assembly=EllaBookMaker.Themes.EllaMetroTheme"
+        x:Class="EllaBookMaker.View.MainWindow"
         mc:Ignorable="d"
         Title="咿啦做书" Height="350" Width="525">
     <Grid Name="MainGrid">
@@ -17,8 +19,7 @@
         <EllaControl:Menu  DockPanel.Dock="Top" Height="30"  Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="500"  />
         <avalondock:DockingManager Grid.Row="1">
             <avalondock:DockingManager.Theme>
-                <avalondock:Windows10Theme></avalondock:Windows10Theme>
-
+                <themes1:EllaMetroTheme></themes1:EllaMetroTheme>
             </avalondock:DockingManager.Theme>
             <avalondock:LayoutRoot>
                 <avalondock:LayoutPanel x:Name="Panel" >
@@ -41,7 +42,6 @@
 
                     <avalondock:LayoutAnchorablePane x:Name="PaneRight">
                         <avalondock:LayoutAnchorable x:Name="Solution4" Title="解决方案4" ContentId="Solution"/>
-
                         <avalondock:LayoutAnchorable x:Name="Solution5" Title="解决方案5" ContentId="Solution"/>
                     </avalondock:LayoutAnchorablePane>
 
@@ -55,3 +55,10 @@
 
 
 </Window>
+
+
+
+
+
+
+

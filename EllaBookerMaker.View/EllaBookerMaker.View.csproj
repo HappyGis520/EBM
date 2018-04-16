@@ -163,6 +163,10 @@
       <Project>{bc1ff69a-03d4-41bb-a400-b268715254fa}</Project>
       <Name>EllaBookMaker.EllaControl</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EllaBookMaker.Themes.Metro\EllaBookMaker.Themes.MetroTheme.csproj">
+      <Project>{89286eb4-b4a1-418c-839a-067b00f442d8}</Project>
+      <Name>EllaBookMaker.Themes.MetroTheme</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EllaBookMaker.Utility\EllaBookMaker.Utility.csproj">
       <Project>{19251580-20bd-459b-a2eb-201100a6d398}</Project>
       <Name>EllaBookMaker.Utility</Name>

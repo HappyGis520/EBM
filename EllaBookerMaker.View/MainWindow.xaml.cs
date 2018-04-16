@@ -24,8 +24,6 @@ namespace EllaBookMaker.View
         public MainWindow()
         {
             InitializeComponent();
-            Uri iconUri = new Uri("书.png", UriKind.Relative);
-            this.Icon = BitmapFrame.Create(iconUri);
         }
     }
 }

@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="ASCII"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.bpmn2.model" version="1.80.4"><feature description="" name="com.ibm.xtools.bpmn2.feature" url="" version="1.80.4"/></signature>?>
+<bpmn2:definitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:_dhCNAD7hEeiB4YrQ3a5FeQ="http://www.ibm.com/xtools/bpmn/2.0/_dhCNAD7hEeiB4YrQ3a5FeQ"
+    xmlns:bpmn2="http://www.ibm.com/xtools/bpmn/2.0" xmlns:extensions="http://jazz.net/xmlns/xtools/BPMNExtensions/v0.1"
+    xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:rmpnotation="http://www.ibm.com/xtools/1.0.0/rmpnotation" id="_dhCNAD7hEeiB4YrQ3a5FeQ" name="&#x7cfb;&#x7edf;&#x603b;&#x4f53;&#x8bbe;&#x8ba1;"
+    expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.ibm.com/xtools/bpmn/2.0/_dhCNAD7hEeiB4YrQ3a5FeQ"
+    typeLanguage="http://www.w3.org/2001/XMLSchema">
+  <extensions:diagram xsi:type="rmpnotation:RMPDiagram" xmi:id="_dhC0ED7hEeiB4YrQ3a5FeQ"
+      visible="true" type="Bpmn2" element="_dhC0Ej7hEeiB4YrQ3a5FeQ" name="&#x7cfb;&#x7edf;&#x603b;&#x4f53;&#x8bbe;&#x8ba1;"
+      measurementUnit="Himetric" pageX="0" pageY="0" pageWidth="100" pageHeight="100"
+      description="" graphLayout="HorizontalOrthogonalHierarchical" linkLayout="None"
+      labelLayout="None">
+    <children xsi:type="notation:Shape" xmi:id="_x53uYD7hEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_xsINUD7hEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+        fontHeight="24" bold="true" italic="false" underline="false" strikeThrough="false"
+        description="" fillColor="16777215" transparency="0" lineColor="14263149"
+        lineWidth="1" roundedBendpointsRadius="0">
+      <children xsi:type="rmpnotation:GraphCompartment" xmi:id="_x54VcD7hEeiB4YrQ3a5FeQ"
+          visible="true" type="Pool Compartment" collapsed="false" canonical="true"
+          showTitle="false" graphLayout="HorizontalOrthogonalHierarchical" linkLayout="None"
+          labelLayout="None">
+        <children xsi:type="notation:Shape" xmi:id="_qi0EcD7lEeiB4YrQ3a5FeQ" visible="true"
+            type="" element="_qR2QQD7lEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+            fontHeight="16" bold="true" italic="false" underline="false" strikeThrough="false"
+            description="" fillColor="16777215" transparency="0" lineColor="14263149"
+            lineWidth="1" roundedBendpointsRadius="0">
+          <children xsi:type="rmpnotation:GraphCompartment" xmi:id="_qi0Ecj7lEeiB4YrQ3a5FeQ"
+              visible="true" type="Lane Compartment" collapsed="false" canonical="true"
+              showTitle="false" graphLayout="HorizontalOrthogonalHierarchical" linkLayout="None"
+              labelLayout="None">
+            <children xsi:type="notation:Shape" xmi:id="_wSKM4D7lEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_wSJl0D7lEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <children xsi:type="notation:DecorationNode" xmi:id="_wSKM4j7lEeiB4YrQ3a5FeQ"
+                  visible="true" type="Name">
+                <layoutConstraint xsi:type="notation:Bounds" xmi:id="_wSKM4z7lEeiB4YrQ3a5FeQ"
+                    x="529" y="1111" width="-1" height="-1"/>
+              </children>
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_wSKM4T7lEeiB4YrQ3a5FeQ"
+                  x="2482" y="20" width="-1" height="-1"/>
+            </children>
+          </children>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_qi0EcT7lEeiB4YrQ3a5FeQ"
+              x="109" y="663" width="13282" height="2328"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_ugCH8D7lEeiB4YrQ3a5FeQ" visible="true"
+            type="" element="_uWUyUD7lEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+            fontHeight="16" bold="true" italic="false" underline="false" strikeThrough="false"
+            description="" fillColor="16777215" transparency="0" lineColor="14263149"
+            lineWidth="1" roundedBendpointsRadius="0">
+          <children xsi:type="rmpnotation:GraphCompartment" xmi:id="_ugCH8j7lEeiB4YrQ3a5FeQ"
+              visible="true" type="Lane Compartment" collapsed="false" canonical="true"
+              showTitle="false" graphLayout="HorizontalOrthogonalHierarchical" linkLayout="None"
+              labelLayout="None">
+            <children xsi:type="notation:Shape" xmi:id="_Q5qAUD7iEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_Q5pZQD7iEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Q5qAUT7iEeiB4YrQ3a5FeQ"
+                  x="20698" y="806" width="3834" height="1320"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_QFY1UD7jEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_QFYOQD7jEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_QFY1UT7jEeiB4YrQ3a5FeQ"
+                  x="16342" y="3577" width="4760" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_ki0YQT7iEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_ki0YQD7iEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ki0YQj7iEeiB4YrQ3a5FeQ"
+                  x="1558" y="448" width="-1" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_TkFw0D7jEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_TkFJwD7jEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_TkFw0T7jEeiB4YrQ3a5FeQ"
+                  x="21688" y="3577" width="4494" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_76RcUD7hEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_76Q1QD7hEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_76RcUT7hEeiB4YrQ3a5FeQ"
+                  x="5914" y="448" width="3569" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_-5z9UD7mEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_-5zWQD7mEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_-5z9UT7mEeiB4YrQ3a5FeQ"
+                  x="26770" y="3577" width="3172" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_34FKgD7nEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_34EjcD7nEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <children xsi:type="notation:DecorationNode" xmi:id="_34FKgj7nEeiB4YrQ3a5FeQ"
+                  visible="true" type="Name">
+                <layoutConstraint xsi:type="notation:Bounds" xmi:id="_34FKgz7nEeiB4YrQ3a5FeQ"
+                    x="529" y="1111" width="-1" height="-1"/>
+              </children>
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_34FKgT7nEeiB4YrQ3a5FeQ"
+                  x="31390" y="4106" width="-1" height="-1"/>
+            </children>
+          </children>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_ugCH8T7lEeiB4YrQ3a5FeQ"
+              x="0" y="3441" width="33580" height="6610"/>
+        </children>
+        <children xsi:type="notation:Shape" xmi:id="_yUBW8D7lEeiB4YrQ3a5FeQ" visible="true"
+            type="" element="_yHevwD7lEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+            fontHeight="16" bold="true" italic="false" underline="false" strikeThrough="false"
+            description="" fillColor="16777215" transparency="0" lineColor="14263149"
+            lineWidth="1" roundedBendpointsRadius="0">
+          <children xsi:type="rmpnotation:GraphCompartment" xmi:id="_yUBW8j7lEeiB4YrQ3a5FeQ"
+              visible="true" type="Lane Compartment" collapsed="false" canonical="true"
+              showTitle="false" graphLayout="HorizontalOrthogonalHierarchical" linkLayout="None"
+              labelLayout="None">
+            <children xsi:type="notation:Shape" xmi:id="_2lw48D7lEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_DA-ZQD7iEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_2lw48T7lEeiB4YrQ3a5FeQ"
+                  x="6046" y="215" width="-1" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_2lw48j7lEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_I1ShQD7iEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_2lw48z7lEeiB4YrQ3a5FeQ"
+                  x="10534" y="215" width="4180" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_2lw49D7lEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_Gli2wD7jEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_2lw49T7lEeiB4YrQ3a5FeQ"
+                  x="16738" y="0" width="4180" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="_IlCsgD7nEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_HelawD7nEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="12" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="_IlCsgT7nEeiB4YrQ3a5FeQ"
+                  x="22546" y="66" width="4099" height="-1"/>
+            </children>
+            <children xsi:type="notation:Shape" xmi:id="__ddngD7nEeiB4YrQ3a5FeQ" visible="true"
+                type="" element="_-oBNQD7nEeiB4YrQ3a5FeQ" fontColor="0" fontName="Microsoft YaHei UI"
+                fontHeight="8" bold="false" italic="false" underline="false" strikeThrough="false"
+                description="" fillColor="16116705" transparency="0" lineColor="14263149"
+                lineWidth="1" roundedBendpointsRadius="0">
+              <layoutConstraint xsi:type="notation:Bounds" xmi:id="__ddngT7nEeiB4YrQ3a5FeQ"
+                  x="27549" y="87" width="2405" height="-1"/>
+            </children>
+          </children>
+          <layoutConstraint xsi:type="notation:Bounds" xmi:id="_yUBW8T7lEeiB4YrQ3a5FeQ"
+              x="0" y="10579" width="33580" height="-1"/>
+        </children>
+      </children>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_x53uYT7hEeiB4YrQ3a5FeQ"
+          x="0" y="2617" width="35957" height="15609"/>
+    </children>
+    <edges xsi:type="notation:Connector" xmi:id="_X3TH4D7iEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_X3Sg0D7iEeiB4YrQ3a5FeQ" source="_76RcUD7hEeiB4YrQ3a5FeQ"
+        target="_Q5qAUD7iEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_X3Tu8D7iEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_X3Tu8T7iEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_X3TH4T7iEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_X3TH4j7iEeiB4YrQ3a5FeQ"
+          points="[0, 1, -113, 1]$[114, 30, 1, 30]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_X3U9ED7iEeiB4YrQ3a5FeQ"
+          id="(1.0,0.48674959437533805)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_X3U9ET7iEeiB4YrQ3a5FeQ"
+          id="(0.1607843137254902,0.48368146214099217)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_sK484D7iEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_sK4V0D7iEeiB4YrQ3a5FeQ" source="_ki0YQT7iEeiB4YrQ3a5FeQ"
+        target="_76RcUD7hEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_sK484z7iEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_sK485D7iEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_sK484T7iEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_sK484j7iEeiB4YrQ3a5FeQ"
+          points="[2, 3, -81, 1]$[84, 26, 1, 24]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_sK6LAD7iEeiB4YrQ3a5FeQ"
+          id="(0.9830789648307896,0.5440778799351)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_sK6yED7iEeiB4YrQ3a5FeQ"
+          id="(0.14935598794190189,0.6587344510546241)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_wwcrYD7lEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_wwcEUD7lEeiB4YrQ3a5FeQ" source="_wSKM4D7lEeiB4YrQ3a5FeQ"
+        target="_ki0YQT7iEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_wwcrYz7lEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_wwcrZD7lEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_wwcrYT7lEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_wwcrYj7lEeiB4YrQ3a5FeQ"
+          points="[4, 14, -31, -120]$[31, 99, -4, -35]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_wwd5gD7lEeiB4YrQ3a5FeQ"
+          id="(0.19924337957124844,0.5006305170239597)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_8ZJz4D7lEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_8ZJM0D7lEeiB4YrQ3a5FeQ" source="_2lw48D7lEeiB4YrQ3a5FeQ"
+        target="_2lw48j7lEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_8ZJz4z7lEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_8ZJz5D7lEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_8ZJz4T7lEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_8ZJz4j7lEeiB4YrQ3a5FeQ"
+          points="[78, 7, -200, 1]$[279, 35, 1, 29]"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_8ZLpED7lEeiB4YrQ3a5FeQ"
+          id="(0.1471291866028708,0.586803677663602)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="__r9BYD7lEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="__r8aUD7lEeiB4YrQ3a5FeQ" source="_76RcUD7hEeiB4YrQ3a5FeQ"
+        target="_2lw48D7lEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="__r9ocD7lEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="__r9ocT7lEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="__r9BYT7lEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="__r9BYj7lEeiB4YrQ3a5FeQ"
+          points="[2, 35, -2, -107]$[2, 107, -2, -35]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_dmdGQD7mEeiB4YrQ3a5FeQ"
+          id="(0.2475360990144396,0.944835045970795)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_d9H50D7mEeiB4YrQ3a5FeQ"
+          id="(0.23006060606060605,0.08436992969172526)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_CwLnYD7mEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_CwLAUD7mEeiB4YrQ3a5FeQ" source="_QFY1UD7jEeiB4YrQ3a5FeQ"
+        target="_2lw49D7lEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_CwMOcD7mEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_CwMOcT7mEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_CwLnYT7mEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_CwLnYj7mEeiB4YrQ3a5FeQ"
+          points="[2, 35, 0, -98]$[2, 98, 0, -35]"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_Y-h44D7mEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_Y-hR0D7mEeiB4YrQ3a5FeQ" source="_2lw48D7lEeiB4YrQ3a5FeQ"
+        target="_76RcUD7hEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_Y-h44z7mEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Y-h45D7mEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_Y-h44T7mEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_Y-h44j7mEeiB4YrQ3a5FeQ"
+          points="[17, -35, -41, 83]$[59, -107, 1, 11]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_a5gX0D7mEeiB4YrQ3a5FeQ"
+          id="(0.8392727272727273,0.12709572742022715)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_Y-jHAD7mEeiB4YrQ3a5FeQ"
+          id="(0.8780655512262205,0.8447809626825311)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_fR5UYD7mEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_fR4tUD7mEeiB4YrQ3a5FeQ" source="_2lw48j7lEeiB4YrQ3a5FeQ"
+        target="_2lw48D7lEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_fR5UYz7mEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_fR5UZD7mEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_fR5UYT7mEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_fR5UYj7mEeiB4YrQ3a5FeQ"
+          points="[-11, 1, 110, 1]$[-121, -4, 0, -4]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_fR6igD7mEeiB4YrQ3a5FeQ"
+          id="(0.07200956937799043,0.18658734451054623)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_fR6igT7mEeiB4YrQ3a5FeQ"
+          id="(0.8586666666666667,0.07030827474310439)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_gsiGYD7mEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_gshfUD7mEeiB4YrQ3a5FeQ" source="_2lw49D7lEeiB4YrQ3a5FeQ"
+        target="_QFY1UD7jEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_gsiGYz7mEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_gsiGZD7mEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_gsiGYT7mEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_gsiGYj7mEeiB4YrQ3a5FeQ"
+          points="[-1, -15, 1, 80]$[-1, -78, 1, 17]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gsjUgD7mEeiB4YrQ3a5FeQ"
+          id="(0.8155502392344498,0.214710654407788)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_gsjUgT7mEeiB4YrQ3a5FeQ"
+          id="(0.776890756302521,0.7587885343428881)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_igbF4D7mEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_igae0D7mEeiB4YrQ3a5FeQ" source="_Q5qAUD7iEeiB4YrQ3a5FeQ"
+        target="_QFY1UD7jEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_igbF4z7mEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_igbF5D7mEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_igbF4T7mEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_igbF4j7mEeiB4YrQ3a5FeQ"
+          points="[20, 9, -68, 1]$[89, 35, 1, 27]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_igcUAD7mEeiB4YrQ3a5FeQ"
+          id="(0.8648930620761607,0.5090144230769231)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_igcUAT7mEeiB4YrQ3a5FeQ"
+          id="(0.02100840336134454,0.5727420227149811)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_3lOVYD7mEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_3lNuUD7mEeiB4YrQ3a5FeQ" source="_Q5qAUD7iEeiB4YrQ3a5FeQ"
+        target="_TkFw0D7jEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_3lOVYz7mEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_3lOVZD7mEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_3lOVYT7mEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_3lOVYj7mEeiB4YrQ3a5FeQ"
+          points="[17, 26, -73, -87]$[-18, 108, -108, -5]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_3lPjgD7mEeiB4YrQ3a5FeQ"
+          id="(0.559207094418362,0.9873798076923077)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_CbRR4D7nEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_CbQq0D7nEeiB4YrQ3a5FeQ" source="_Q5qAUD7iEeiB4YrQ3a5FeQ"
+        target="_-5z9UD7mEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_CbRR4z7nEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_CbRR5D7nEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_CbRR4T7nEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_CbRR4j7nEeiB4YrQ3a5FeQ"
+          points="[37, 13, -250, -84]$[288, 86, 1, -11]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_CbSgAD7nEeiB4YrQ3a5FeQ"
+          id="(0.7511737089201878,0.4230769230769231)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_CbSgAT7nEeiB4YrQ3a5FeQ"
+          id="(0.6281690140845071,0.17487980769230768)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_K6e54D7nEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_K6eS0D7nEeiB4YrQ3a5FeQ" source="_TkFw0D7jEeiB4YrQ3a5FeQ"
+        target="_IlCsgD7nEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_K6fg8D7nEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_K6fg8T7nEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_K6e54T7nEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_K6e54j7nEeiB4YrQ3a5FeQ"
+          points="[0, 15, 0, -84]$[0, 89, 0, -10]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_K6gvED7nEeiB4YrQ3a5FeQ"
+          id="(0.3740542946150423,0.7770432692307693)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_K6gvET7nEeiB4YrQ3a5FeQ"
+          id="(0.2593759848723605,0.186152841280209)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_LdC0YD7nEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_LdCNUD7nEeiB4YrQ3a5FeQ" source="_IlCsgD7nEeiB4YrQ3a5FeQ"
+        target="_TkFw0D7jEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_LdC0Yz7nEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_LdC0ZD7nEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_LdC0YT7nEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_LdC0Yj7nEeiB4YrQ3a5FeQ"
+          points="[4, -29, 11, 106]$[58, -103, 65, 32]"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_41Kd0D7nEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_41J2wD7nEeiB4YrQ3a5FeQ" source="_-5z9UD7mEeiB4YrQ3a5FeQ"
+        target="_34FKgD7nEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_41LE4D7nEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_41LE4T7nEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_41Kd0T7nEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_41Kd0j7nEeiB4YrQ3a5FeQ"
+          points="[0, -7, -27, 1]$[28, -3, 1, 5]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_41MTAD7nEeiB4YrQ3a5FeQ"
+          id="(1.0,0.7295673076923077)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_41MTAT7nEeiB4YrQ3a5FeQ"
+          id="(0.06683480453972257,0.6002522068095839)"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_BqJhgD7oEeiB4YrQ3a5FeQ" visible="true"
+        type="" element="_BqI6cD7oEeiB4YrQ3a5FeQ" source="_-5z9UD7mEeiB4YrQ3a5FeQ"
+        target="__ddngD7nEeiB4YrQ3a5FeQ" roundedBendpointsRadius="4" routing="Rectilinear"
+        smoothness="None" avoidObstructions="false" closestDistance="false" jumpLinkStatus="None"
+        jumpLinkType="Semicircle" jumpLinksReverse="false" lineColor="8421504" lineWidth="1">
+      <children xsi:type="notation:DecorationNode" xmi:id="_BqJhgz7oEeiB4YrQ3a5FeQ"
+          visible="true" type="Name">
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_BqJhhD7oEeiB4YrQ3a5FeQ"
+            x="0" y="-265" width="-1" height="-1"/>
+      </children>
+      <styles xsi:type="notation:FontStyle" xmi:id="_BqJhgT7oEeiB4YrQ3a5FeQ" fontColor="0"
+          fontName="Microsoft YaHei UI" fontHeight="8" bold="false" italic="false"
+          underline="false" strikeThrough="false"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_BqJhgj7oEeiB4YrQ3a5FeQ"
+          points="[7, 31, -8, -104]$[7, 106, -8, -29]"/>
+    </edges>
+  </extensions:diagram>
+  <bpmn2:extension xmi:id="_dhC0ET7hEeiB4YrQ3a5FeQ" definition="extensions:Extensions"
+      mustUnderstand="false"/>
+  <bpmn2:collaboration id="_dhC0Ej7hEeiB4YrQ3a5FeQ" name="&#x7cfb;&#x7edf;&#x603b;&#x4f53;&#x8bbe;&#x8ba1;">
+    <bpmn2:participant id="_xsINUD7hEeiB4YrQ3a5FeQ" name="ELLaBookMaker" processRef="_dhCNAD7hEeiB4YrQ3a5FeQ:_x53HUD7hEeiB4YrQ3a5FeQ"/>
+  </bpmn2:collaboration>
+  <bpmn2:process id="_lGFS0D7hEeiB4YrQ3a5FeQ" name="Process1">
+    <bpmn2:startEvent id="_31CFQD7hEeiB4YrQ3a5FeQ"/>
+    <bpmn2:endEvent id="_gt_UYD7lEeiB4YrQ3a5FeQ"/>
+  </bpmn2:process>
+  <bpmn2:process id="_x53HUD7hEeiB4YrQ3a5FeQ" name="Process2">
+    <bpmn2:lane id="_qR2QQD7lEeiB4YrQ3a5FeQ" name="&#x7528;&#x6237;" partitionElementRef="_dhCNAD7hEeiB4YrQ3a5FeQ:_qizdYD7lEeiB4YrQ3a5FeQ">
+      <bpmn2:flowElementRef>_wSJl0D7lEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_wwcEUD7lEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+    </bpmn2:lane>
+    <bpmn2:lane id="_uWUyUD7lEeiB4YrQ3a5FeQ" name="&#x5ba2;&#x6237;&#x7aef;" partitionElementRef="_dhCNAD7hEeiB4YrQ3a5FeQ:_ugBg4D7lEeiB4YrQ3a5FeQ">
+      <bpmn2:flowElementRef>_Q5pZQD7iEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_QFYOQD7jEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_ki0YQD7iEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_TkFJwD7jEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_76Q1QD7hEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>__r8aUD7lEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_CwLAUD7mEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_igae0D7mEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_3lNuUD7mEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_-5zWQD7mEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_CbQq0D7nEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_K6eS0D7nEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_34EjcD7nEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_41J2wD7nEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_BqI6cD7oEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+    </bpmn2:lane>
+    <bpmn2:lane id="_yHevwD7lEeiB4YrQ3a5FeQ" name="&#x670d;&#x52a1;&#x7aef;" partitionElementRef="_dhCNAD7hEeiB4YrQ3a5FeQ:_yUAv4D7lEeiB4YrQ3a5FeQ">
+      <bpmn2:flowElementRef>_Gli2wD7jEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_DA-ZQD7iEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_I1ShQD7iEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_8ZJM0D7lEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_Y-hR0D7mEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_fR4tUD7mEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_gshfUD7mEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_HelawD7nEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_LdCNUD7nEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+      <bpmn2:flowElementRef>_-oBNQD7nEeiB4YrQ3a5FeQ</bpmn2:flowElementRef>
+    </bpmn2:lane>
+    <bpmn2:userTask id="_76Q1QD7hEeiB4YrQ3a5FeQ" name="&#x7528;&#x6237;&#x767b;&#x5f55;&#x8bf7;&#x6c42;"
+        isForCompensation="false" implementation="Unspecified">
+      <bpmn2:resourceRole id="_vl3HkD7lEeiB4YrQ3a5FeQ" name="ResourceRole1">
+        <bpmn2:resourceRef>_dhCNAD7hEeiB4YrQ3a5FeQ:_ugBg4D7lEeiB4YrQ3a5FeQ</bpmn2:resourceRef>
+      </bpmn2:resourceRole>
+    </bpmn2:userTask>
+    <bpmn2:task id="_Q5pZQD7iEeiB4YrQ3a5FeQ" name="&#x4e3b;&#x7a0b;&#x5e8f;&#x754c;&#x9762;"
+        isForCompensation="false">
+      <bpmn2:resourceRole id="_vlwZ4D7lEeiB4YrQ3a5FeQ" name="ResourceRole1">
+        <bpmn2:resourceRef>_dhCNAD7hEeiB4YrQ3a5FeQ:_ugBg4D7lEeiB4YrQ3a5FeQ</bpmn2:resourceRef>
+      </bpmn2:resourceRole>
+    </bpmn2:task>
+    <bpmn2:sequenceFlow id="_X3Sg0D7iEeiB4YrQ3a5FeQ" sourceRef="_76Q1QD7hEeiB4YrQ3a5FeQ"
+        targetRef="_Q5pZQD7iEeiB4YrQ3a5FeQ"/>
+    <bpmn2:userTask id="_ki0YQD7iEeiB4YrQ3a5FeQ" name="&#x542f;&#x52a8;&#x7a0b;&#x5e8f;"
+        isForCompensation="false" implementation="Unspecified">
+      <bpmn2:resourceRole id="_vl0EQD7lEeiB4YrQ3a5FeQ" name="ResourceRole1">
+        <bpmn2:resourceRef>_dhCNAD7hEeiB4YrQ3a5FeQ:_ugBg4D7lEeiB4YrQ3a5FeQ</bpmn2:resourceRef>
+      </bpmn2:resourceRole>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="_sK4V0D7iEeiB4YrQ3a5FeQ" sourceRef="_ki0YQD7iEeiB4YrQ3a5FeQ"
+        targetRef="_76Q1QD7hEeiB4YrQ3a5FeQ"/>
+    <bpmn2:userTask id="_QFYOQD7jEeiB4YrQ3a5FeQ" name="&#x67e5;&#x8be2;&#x6570;&#x636e;&#x8bf7;&#x6c42;"
+        isForCompensation="false" implementation="Unspecified">
+      <bpmn2:resourceRole id="_vlyPED7lEeiB4YrQ3a5FeQ" name="ResourceRole1">
+        <bpmn2:resourceRef>_dhCNAD7hEeiB4YrQ3a5FeQ:_ugBg4D7lEeiB4YrQ3a5FeQ</bpmn2:resourceRef>
+      </bpmn2:resourceRole>
+    </bpmn2:userTask>
+    <bpmn2:userTask id="_TkFJwD7jEeiB4YrQ3a5FeQ" name="&#x4e0a;&#x4f20;&#x6570;&#x636e;&#x8bf7;&#x6c42;"
+        isForCompensation="false" implementation="Unspecified">
+      <bpmn2:resourceRole id="_vl15cD7lEeiB4YrQ3a5FeQ" name="ResourceRole1">
+        <bpmn2:resourceRef>_dhCNAD7hEeiB4YrQ3a5FeQ:_ugBg4D7lEeiB4YrQ3a5FeQ</bpmn2:resourceRef>
+      </bpmn2:resourceRole>
+    </bpmn2:userTask>
+    <bpmn2:startEvent id="_wSJl0D7lEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_wwcEUD7lEeiB4YrQ3a5FeQ" sourceRef="_wSJl0D7lEeiB4YrQ3a5FeQ"
+        targetRef="_ki0YQD7iEeiB4YrQ3a5FeQ"/>
+    <bpmn2:serviceTask id="_DA-ZQD7iEeiB4YrQ3a5FeQ" name="&#x7528;&#x6237;&#x767b;&#x5f55;&#x63a5;&#x53e3;"
+        isForCompensation="false" implementation="WebService" operationRef="_dhCNAD7hEeiB4YrQ3a5FeQ:_EOqUYD7iEeiB4YrQ3a5FeQ"/>
+    <bpmn2:businessRuleTask id="_I1ShQD7iEeiB4YrQ3a5FeQ" name="&#x7528;&#x6237;&#x9274;&#x6743;"
+        isForCompensation="false" implementation="Unspecified"/>
+    <bpmn2:businessRuleTask id="_Gli2wD7jEeiB4YrQ3a5FeQ" name="&#x6570;&#x636e;&#x67e5;&#x8be2;"
+        isForCompensation="false" implementation="Unspecified"/>
+    <bpmn2:sequenceFlow id="_8ZJM0D7lEeiB4YrQ3a5FeQ" sourceRef="_DA-ZQD7iEeiB4YrQ3a5FeQ"
+        targetRef="_I1ShQD7iEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="__r8aUD7lEeiB4YrQ3a5FeQ" sourceRef="_76Q1QD7hEeiB4YrQ3a5FeQ"
+        targetRef="_DA-ZQD7iEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_CwLAUD7mEeiB4YrQ3a5FeQ" sourceRef="_QFYOQD7jEeiB4YrQ3a5FeQ"
+        targetRef="_Gli2wD7jEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_Y-hR0D7mEeiB4YrQ3a5FeQ" sourceRef="_DA-ZQD7iEeiB4YrQ3a5FeQ"
+        targetRef="_76Q1QD7hEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_fR4tUD7mEeiB4YrQ3a5FeQ" sourceRef="_I1ShQD7iEeiB4YrQ3a5FeQ"
+        targetRef="_DA-ZQD7iEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_gshfUD7mEeiB4YrQ3a5FeQ" sourceRef="_Gli2wD7jEeiB4YrQ3a5FeQ"
+        targetRef="_QFYOQD7jEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_igae0D7mEeiB4YrQ3a5FeQ" sourceRef="_Q5pZQD7iEeiB4YrQ3a5FeQ"
+        targetRef="_QFYOQD7jEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_3lNuUD7mEeiB4YrQ3a5FeQ" sourceRef="_Q5pZQD7iEeiB4YrQ3a5FeQ"
+        targetRef="_TkFJwD7jEeiB4YrQ3a5FeQ"/>
+    <bpmn2:userTask id="_-5zWQD7mEeiB4YrQ3a5FeQ" name="&#x9000;&#x51fa;&#x7a0b;&#x5e8f;"
+        isForCompensation="false" implementation="Unspecified">
+      <bpmn2:resourceRole id="_-5zWQT7mEeiB4YrQ3a5FeQ" name="ResourceRole1">
+        <bpmn2:resourceRef>_dhCNAD7hEeiB4YrQ3a5FeQ:_ugBg4D7lEeiB4YrQ3a5FeQ</bpmn2:resourceRef>
+      </bpmn2:resourceRole>
+    </bpmn2:userTask>
+    <bpmn2:sequenceFlow id="_CbQq0D7nEeiB4YrQ3a5FeQ" sourceRef="_Q5pZQD7iEeiB4YrQ3a5FeQ"
+        targetRef="_-5zWQD7mEeiB4YrQ3a5FeQ"/>
+    <bpmn2:serviceTask id="_HelawD7nEeiB4YrQ3a5FeQ" name="&#x4e0a;&#x4f20;&#x6570;&#x636e;"
+        isForCompensation="false" implementation="WebService" operationRef="_dhCNAD7hEeiB4YrQ3a5FeQ:_IlCFcD7nEeiB4YrQ3a5FeQ">
+      <bpmn2:resourceRole id="_IlCFcT7nEeiB4YrQ3a5FeQ" name="ResourceRole1">
+        <bpmn2:resourceRef>_dhCNAD7hEeiB4YrQ3a5FeQ:_yUAv4D7lEeiB4YrQ3a5FeQ</bpmn2:resourceRef>
+      </bpmn2:resourceRole>
+    </bpmn2:serviceTask>
+    <bpmn2:sequenceFlow id="_K6eS0D7nEeiB4YrQ3a5FeQ" sourceRef="_TkFJwD7jEeiB4YrQ3a5FeQ"
+        targetRef="_HelawD7nEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_LdCNUD7nEeiB4YrQ3a5FeQ" sourceRef="_HelawD7nEeiB4YrQ3a5FeQ"
+        targetRef="_TkFJwD7jEeiB4YrQ3a5FeQ"/>
+    <bpmn2:endEvent id="_34EjcD7nEeiB4YrQ3a5FeQ"/>
+    <bpmn2:sequenceFlow id="_41J2wD7nEeiB4YrQ3a5FeQ" sourceRef="_-5zWQD7mEeiB4YrQ3a5FeQ"
+        targetRef="_34EjcD7nEeiB4YrQ3a5FeQ"/>
+    <bpmn2:serviceTask id="_-oBNQD7nEeiB4YrQ3a5FeQ" name="&#x767b;&#x51fa;&#x901a;&#x77e5;"
+        isForCompensation="false" implementation="WebService" operationRef="_dhCNAD7hEeiB4YrQ3a5FeQ:__dcZYT7nEeiB4YrQ3a5FeQ">
+      <bpmn2:resourceRole id="__ddAcD7nEeiB4YrQ3a5FeQ" name="ResourceRole1">
+        <bpmn2:resourceRef>_dhCNAD7hEeiB4YrQ3a5FeQ:_yUAv4D7lEeiB4YrQ3a5FeQ</bpmn2:resourceRef>
+      </bpmn2:resourceRole>
+    </bpmn2:serviceTask>
+    <bpmn2:sequenceFlow id="_BqI6cD7oEeiB4YrQ3a5FeQ" sourceRef="_-5zWQD7mEeiB4YrQ3a5FeQ"
+        targetRef="_-oBNQD7nEeiB4YrQ3a5FeQ"/>
+    <bpmn2:textAnnotation id="_JpPJ4D7mEeiB4YrQ3a5FeQ"/>
+  </bpmn2:process>
+  <bpmn2:process id="_1q360D7hEeiB4YrQ3a5FeQ" name="Process3"/>
+  <bpmn2:interface id="_EOptUD7iEeiB4YrQ3a5FeQ" name="Interface1">
+    <bpmn2:operation id="_EOqUYD7iEeiB4YrQ3a5FeQ" name="Operation1"/>
+  </bpmn2:interface>
+  <bpmn2:resource id="_jcQRcD7lEeiB4YrQ3a5FeQ" name="Resource1"/>
+  <bpmn2:resource id="_qizdYD7lEeiB4YrQ3a5FeQ" name="Resource2"/>
+  <bpmn2:resource id="_ugBg4D7lEeiB4YrQ3a5FeQ" name="Resource3"/>
+  <bpmn2:resource id="_yUAv4D7lEeiB4YrQ3a5FeQ" name="Resource4"/>
+  <bpmn2:interface id="_IlBeYD7nEeiB4YrQ3a5FeQ" name="Interface2">
+    <bpmn2:operation id="_IlCFcD7nEeiB4YrQ3a5FeQ" name="Operation1"/>
+  </bpmn2:interface>
+  <bpmn2:interface id="__dcZYD7nEeiB4YrQ3a5FeQ" name="Interface3">
+    <bpmn2:operation id="__dcZYT7nEeiB4YrQ3a5FeQ" name="Operation1"/>
+  </bpmn2:interface>
+</bpmn2:definitions>

@@ -1,5 +1,6 @@
 ﻿namespace EllaBookMaker.Model
 {
+   
     /// <summary>
     /// Canvas状态
     /// </summary>

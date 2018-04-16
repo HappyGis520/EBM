@@ -12,7 +12,7 @@ namespace EllaBookMaker.Model
     public enum EnumSpriteType
     {
         /// <summary>
-        /// 标准切片
+        /// 普通切片
         /// </summary>
         Normal,
         /// <summary>

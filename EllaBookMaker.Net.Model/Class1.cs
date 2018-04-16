@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EllaBookMaker.Model
+namespace EllaBookMaker.Net.Model
 {
-   public  class AnimationGroup
+    public class Class1
     {
     }
 }
